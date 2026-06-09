@@ -72,16 +72,6 @@ socialmilk-docs/
 
 ---
 
-## ⚙️ Activar GitHub Pages
-
-1. Ve a **Settings → Pages** en tu repositorio
-2. En *Source*, selecciona la rama `main` y la carpeta `/ (root)`
-3. Guarda — en unos segundos estará disponible en `https://tu-usuario.github.io/socialmilk-docs`
-
-> **Tip:** Renombra `SocialMilk_API_Docs.html` a `index.html` antes de subir para que GitHub Pages lo sirva automáticamente.
-
----
-
 ## 👨‍💻 Autor
 
 **Juan Manuel Franco Osorio**  
