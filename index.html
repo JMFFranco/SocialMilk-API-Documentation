@@ -587,55 +587,55 @@
     <nav>
       <div class="nav-section">
         <span class="nav-label">Navegación</span>
-        <button class="nav-link active" onclick="scrollTo('overview')">
+        <button class="nav-link active" onclick="scrollToSection('overview', this)">
           <div class="nav-dot"></div> Resumen
         </button>
-        <button class="nav-link" onclick="scrollTo('auth')">
+        <button class="nav-link" onclick="scrollToSection('auth', this)">
           <div class="nav-dot"></div> Autenticación
         </button>
       </div>
       <div class="nav-section">
         <span class="nav-label">Módulos</span>
-        <button class="nav-link" onclick="scrollTo('authprofiles')">
+        <button class="nav-link" onclick="scrollToSection('authprofiles', this)">
           <div class="nav-dot"></div> Auth & Perfiles
         </button>
-        <button class="nav-link" onclick="scrollTo('animals')">
+        <button class="nav-link" onclick="scrollToSection('animals', this)">
           <div class="nav-dot"></div> Animales
         </button>
-        <button class="nav-link" onclick="scrollTo('animalhealth')">
+        <button class="nav-link" onclick="scrollToSection('animalhealth', this)">
           <div class="nav-dot"></div> Salud Animal
         </button>
-        <button class="nav-link" onclick="scrollTo('production')">
+        <button class="nav-link" onclick="scrollToSection('production', this)">
           <div class="nav-dot"></div> Producción
         </button>
-        <button class="nav-link" onclick="scrollTo('milkinventory')">
+        <button class="nav-link" onclick="scrollToSection('milkinventory', this)">
           <div class="nav-dot"></div> Inventario Leche
         </button>
-        <button class="nav-link" onclick="scrollTo('sales')">
+        <button class="nav-link" onclick="scrollToSection('sales', this)">
           <div class="nav-dot"></div> Ventas
         </button>
-        <button class="nav-link" onclick="scrollTo('tasks')">
+        <button class="nav-link" onclick="scrollToSection('tasks', this)">
           <div class="nav-dot"></div> Tareas
         </button>
-        <button class="nav-link" onclick="scrollTo('posts')">
+        <button class="nav-link" onclick="scrollToSection('posts', this)">
           <div class="nav-dot"></div> Publicaciones
         </button>
-        <button class="nav-link" onclick="scrollTo('postinteractions')">
+        <button class="nav-link" onclick="scrollToSection('postinteractions', this)">
           <div class="nav-dot"></div> Interacciones
         </button>
-        <button class="nav-link" onclick="scrollTo('supplies')">
+        <button class="nav-link" onclick="scrollToSection('supplies', this)">
           <div class="nav-dot"></div> Insumos
         </button>
-        <button class="nav-link" onclick="scrollTo('auditlogs')">
+        <button class="nav-link" onclick="scrollToSection('auditlogs', this)">
           <div class="nav-dot"></div> Auditoría
         </button>
-        <button class="nav-link" onclick="scrollTo('ai')">
+        <button class="nav-link" onclick="scrollToSection('ai', this)">
           <div class="nav-dot"></div> AI Assistant
         </button>
       </div>
       <div class="nav-section">
         <span class="nav-label">Diagnóstico</span>
-        <button class="nav-link" onclick="scrollTo('health')">
+        <button class="nav-link" onclick="scrollToSection('health', this)">
           <div class="nav-dot"></div> Health Check
         </button>
       </div>
@@ -654,62 +654,62 @@
           </div>
         </div>
         <div class="overview-grid">
-          <a class="overview-card" onclick="scrollTo('authprofiles')">
+          <a class="overview-card" onclick="scrollToSection('authprofiles', this)">
             <div class="ov-icon">👤</div>
             <div class="ov-name">Auth & Perfiles</div>
             <div class="ov-count">7 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('animals')">
+          <a class="overview-card" onclick="scrollToSection('animals', this)">
             <div class="ov-icon">🐄</div>
             <div class="ov-name">Animales</div>
             <div class="ov-count">5 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('animalhealth')">
+          <a class="overview-card" onclick="scrollToSection('animalhealth', this)">
             <div class="ov-icon">🏥</div>
             <div class="ov-name">Salud Animal</div>
             <div class="ov-count">11 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('production')">
+          <a class="overview-card" onclick="scrollToSection('production', this)">
             <div class="ov-icon">🥛</div>
             <div class="ov-name">Producción</div>
             <div class="ov-count">6 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('milkinventory')">
+          <a class="overview-card" onclick="scrollToSection('milkinventory', this)">
             <div class="ov-icon">📦</div>
             <div class="ov-name">Inventario Leche</div>
             <div class="ov-count">3 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('sales')">
+          <a class="overview-card" onclick="scrollToSection('sales', this)">
             <div class="ov-icon">💰</div>
             <div class="ov-name">Ventas</div>
             <div class="ov-count">4 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('tasks')">
+          <a class="overview-card" onclick="scrollToSection('tasks', this)">
             <div class="ov-icon">✅</div>
             <div class="ov-name">Tareas</div>
             <div class="ov-count">4 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('posts')">
+          <a class="overview-card" onclick="scrollToSection('posts', this)">
             <div class="ov-icon">📝</div>
             <div class="ov-name">Publicaciones</div>
             <div class="ov-count">6 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('postinteractions')">
+          <a class="overview-card" onclick="scrollToSection('postinteractions', this)">
             <div class="ov-icon">💬</div>
             <div class="ov-name">Interacciones</div>
             <div class="ov-count">6 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('supplies')">
+          <a class="overview-card" onclick="scrollToSection('supplies', this)">
             <div class="ov-icon">🧪</div>
             <div class="ov-name">Insumos</div>
             <div class="ov-count">10 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('auditlogs')">
+          <a class="overview-card" onclick="scrollToSection('auditlogs', this)">
             <div class="ov-icon">🔍</div>
             <div class="ov-name">Auditoría</div>
             <div class="ov-count">2 endpoints</div>
           </a>
-          <a class="overview-card" onclick="scrollTo('ai')">
+          <a class="overview-card" onclick="scrollToSection('ai', this)">
             <div class="ov-icon">🤖</div>
             <div class="ov-name">AI Assistant</div>
             <div class="ov-count">3 endpoints</div>
@@ -766,7 +766,7 @@
                 "phone": "3116176342",
                 "fullName": "Juan Manuel Franco",
                 "locationName": "Manizales"
-                }</div>
+}</div>
             </div>
             <div class="field-group">
               <div class="field-label">Parámetros</div>
@@ -829,7 +829,7 @@
                 "email": "usuario@ejemplo.com", // o vacío
                 "phone": "3116176342", // o vacío
                 "password": "MiPassword123"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -879,7 +879,7 @@
                 "phone": "3116176342",
                 "fullName": "Juan Manuel Franco",
                 "locationName": "Pereira"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -987,7 +987,7 @@
                 "animalBreed": "Holstein",
                 "animalStatus": "Produccion",
                 "birthDate": "2020-05-10"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1020,7 +1020,7 @@
                 "animalName": "Lola Actualizada",
                 "animalBreed": "Holstein Premium",
                 "animalStatus": "Produccion"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1079,7 +1079,7 @@
               <div class="code-block">{
                 "recordType": "Vaccination",
                 "description": "Aplicación vacuna aftosa"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1113,7 +1113,7 @@
               <div class="code-block">{
                 "recordType": "Treatment",
                 "description": "Tratamiento veterinario actualizado"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1162,7 +1162,7 @@
                 "eventType": "Vaccination",
                 "scheduledDate": "2026-06-01T10:00:00Z",
                 "status": "PENDING"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1197,7 +1197,7 @@
                 "eventType": "Checkup",
                 "scheduledDate": "2026-06-10T08:00:00Z",
                 "status": "COMPLETED"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1284,7 +1284,7 @@
                 "productionDate": "2026-05-20T06:00:00Z",
                 "milkVolumeLiters": 30,
                 "shift": "MORNING"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1316,7 +1316,7 @@
               <div class="code-block">{
                 "milkVolumeLiters": 4.5,
                 "shift": "AFTERNOON"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1481,7 +1481,7 @@
                 "totalLitersSold": 10,
                 "totalAmount": 45000,
                 "buyerName": "Cooperativa Alpina"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1515,7 +1515,7 @@
                 "totalLitersSold": 15,
                 "totalAmount": 320000,
                 "buyerName": "Alpina"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1560,7 +1560,7 @@
                 "taskDescription": "Aplicar vacuna trimestral",
                 "dueDate": "2026-06-10T00:00:00",
                 "priority": 3
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1578,7 +1578,7 @@
               <div class="field-label">Request Body</div>
               <div class="code-block">{
                 "status": 2 // 1=Pendiente, 2=EnProgreso, 3=Completada
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1634,7 +1634,7 @@
               <div class="field-label">Request Body</div>
               <div class="code-block">{
                 "content": "Mi primera publicación en SocialMilk"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1665,7 +1665,7 @@
               <div class="field-label">Request Body</div>
               <div class="code-block">{
                 "content": "Contenido actualizado"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1739,7 +1739,8 @@
           </div>
           <div class="endpoint-body">
             <div class="info-note">Retorna todos los comentarios de una publicación. Soporta paginación con
-              <code>?page=1&pageSize=10</code>.</div>
+              <code>?page=1&pageSize=10</code>.
+            </div>
           </div>
         </div>
 
@@ -1756,7 +1757,7 @@
               <div class="field-label">Request Body</div>
               <div class="code-block">{
                 "content": "Excelente producción de hoy."
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1775,7 +1776,7 @@
               <div class="field-label">Request Body</div>
               <div class="code-block">{
                 "content": "Comentario actualizado."
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1863,7 +1864,7 @@
                 "supplyName": "Concentrado Premium",
                 "category": "Alimento",
                 "unitMeasure": "Kg"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1909,7 +1910,7 @@
                 "supplyName": "Concentrado Premium Plus",
                 "category": "Alimento Bovino",
                 "unitMeasure": "Kg"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -1975,7 +1976,7 @@
                 "supplyId": "{supplyId}",
                 "movementType": "IN", // IN | OUT | ADJUSTMENT
                 "quantityChanged": 100
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -2125,7 +2126,7 @@
               <div class="field-label">Request Body</div>
               <div class="code-block">{
                 "inputText": "¿Cómo registrar una venta?"
-                }</div>
+}</div>
             </div>
           </div>
         </div>
@@ -2207,13 +2208,14 @@
       el.classList.toggle('open');
     }
 
-    function scrollTo(id) {
-      const el = document.getElementById(id);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        // Update active nav
+    function scrollToSection(id, el) {
+      const target = document.getElementById(id);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      if (el && el.classList.contains('nav-link')) {
         document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-        event.currentTarget.classList.add('active');
+        el.classList.add('active');
       }
     }
   </script>
